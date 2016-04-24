@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 class Hitungan{
      public static void Penjumlahan(int bilangan1, int bilangan2){
         int nilai = bilangan1 + bilangan2;
@@ -34,7 +37,18 @@ class Hitungan{
 }
 public class LatihanBab5 {
     public static void main(String[] args) {
-        System.out.println("tess");
+        Scanner in = new Scanner(System.in);
+        int pilih, x, y;
+        System.out.println("===Main Menu===");
+        System.out.println("[1] Penjumlahan");
+        System.out.println("[2] Pengurangan");
+        System.out.println("[3] Perkalian");
+        System.out.println("[4] Pembagian");
+        System.out.println("[5] Penyederhanaan Pecahan");
+        System.out.println("[0] Exit");
+        System.out.println("===============");
+        System.out.print("Masukkan Pilihan Menu: ");
+        pilih = in.nextInt();
         
         
     }
