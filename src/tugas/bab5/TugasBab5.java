@@ -27,7 +27,15 @@ public class TugasBab5 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Jaket CV = new Jaket();
-        
+        int a[] = new int[3];
+        System.out.println("==CV.Labkomdas==");
+        for (int i = 0; i < 3; i++) {
+            System.out.print("Masukkan Jumlah "+CV.nama[i]+" : ");
+            a[i]=in.nextInt();
+        }
+        CV.Pembelian(a);
+        System.out.println("========================================");
+     
     }
     
 }
