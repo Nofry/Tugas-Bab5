@@ -1,21 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package tugas.bab5;
-
-/**
- *
- * @author irwin deriyan
- */
+class Jaket{
+    public String nama[]= {"JaketA","JaketB","JaketC"};
+    public final int jaket[]= {100000,125000,175000};
+    public int jumlah[];
+    public int potongan[]= {5000,5000,15000};
+    public int harga[] = new int[3];
+    public int Total;
+}
 public class TugasBab5 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
     
 }
