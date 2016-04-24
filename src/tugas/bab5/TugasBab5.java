@@ -1,7 +1,5 @@
 package tugas.bab5;
-
 import java.util.Scanner;
-
 class Jaket{
     public String nama[]= {"JaketA","JaketB","JaketC"};
     public final int jaket[]= {100000,125000,175000};
