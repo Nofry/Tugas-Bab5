@@ -1,4 +1,7 @@
 package tugas.bab5;
+
+import java.util.Scanner;
+
 class Jaket{
     public String nama[]= {"JaketA","JaketB","JaketC"};
     public final int jaket[]= {100000,125000,175000};
@@ -21,8 +24,9 @@ class Jaket{
     }
 }
 public class TugasBab5 {
-
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        Jaket CV = new Jaket();
         
     }
     
