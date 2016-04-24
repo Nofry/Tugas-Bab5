@@ -22,6 +22,14 @@ class Jaket{
             Total += harga[i];
         }
     }
+    public void CetakHarga(){
+        System.out.println("Nama    Jumlah    Harga");
+        for (int i = 0; i < 3; i++) {
+            System.out.println(nama[i]+"  "+jumlah[i]+"      Rp."+harga[i]);    
+        }
+        System.out.println("=======================================");
+        System.out.println("Total Harga: Rp."+Total);
+    }
 }
 public class TugasBab5 {
     public static void main(String[] args) {
@@ -35,7 +43,7 @@ public class TugasBab5 {
         }
         CV.Pembelian(a);
         System.out.println("========================================");
-     
+        CV.CetakHarga();
     }
     
 }
