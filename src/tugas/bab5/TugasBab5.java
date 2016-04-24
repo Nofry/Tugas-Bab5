@@ -44,6 +44,5 @@ public class TugasBab5 {
         CV.Pembelian(a);
         System.out.println("========================================");
         CV.CetakHarga();
-    }
-    
+    }   
 }
