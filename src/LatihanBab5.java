@@ -37,6 +37,7 @@ public class LatihanBab5 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int pilih, x, y;
+        do{
         System.out.println("===Main Menu===");
         System.out.println("[1] Penjumlahan");
         System.out.println("[2] Pengurangan");
@@ -90,8 +91,6 @@ public class LatihanBab5 {
                     break;
             default: System.out.println("Pilihan Tidak Valid!! Coba Lagi!");
         }
-        
-        
-    }
-    
+       }while(pilih!=0);
+    }    
 }
