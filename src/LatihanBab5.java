@@ -49,6 +49,15 @@ public class LatihanBab5 {
         System.out.println("===============");
         System.out.print("Masukkan Pilihan Menu: ");
         pilih = in.nextInt();
+        switch(pilih){
+            case 1: System.out.println("=PENJUMLAHAN=");
+                    System.out.print("Masukkan Bilangan 1: ");
+                    x = in.nextInt();
+                    System.out.print("Masukkan Bilangan 2: ");
+                    y = in.nextInt();
+                    Hitungan.Penjumlahan(x, y);
+                    break;
+        }
         
         
     }
